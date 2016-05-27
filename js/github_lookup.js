@@ -29,7 +29,7 @@ exports.GithubUser.prototype.getRepos = function(){
 
       $("#userRepos").append("<h4>" + repo.name + "</h4>");
       if(repo.description === "") {
-        $("#userRepos").append("no description present");
+        $("#userRepos").append("--no description present--");
       } else {
         $("#userRepos").append("<p>" + repo.description + "</p>");
       }
