@@ -31,7 +31,7 @@ _If you find any errors or have trouble viewing the website feel free to contact
 
 ## Technologies Used
 
-_The website is written in javascript & HTML. jQuery was used for html manipulation. Github's API (JSON) was interacted with using AJAX. Node was used as a dev server. npm and Bower were used as package managers, and gulp was used for task automation (concatenation, js syntax checker etc)_
+_The website is written in javascript & HTML. jQuery was used for html manipulation, github's API (JSON) was interacted with using AJAX, Node was used as a dev server, npm and Bower were used as package managers, and gulp was used for task automation (concatenation, js syntax checker etc)_
 
 ### License
 
