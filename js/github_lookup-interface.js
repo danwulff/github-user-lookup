@@ -5,8 +5,12 @@ var getUser = require('./../js/github_lookup.js').getUser;
 $( document ).ready(function() {
 
   $("#userSubmit").click(function() {
-    getRepos($("#userName").val());
+    var userOutput = getUser($("#userName").val());
   });
 
+  $("#userRetry").click(function() {
+    $("#userInput").show();
+    $("#userOutput").hide();
+  });
 
 });

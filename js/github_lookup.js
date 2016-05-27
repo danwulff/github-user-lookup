@@ -11,8 +11,12 @@ exports.getRepos = function(userName){
 
 exports.getUser = function(userName){
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
+    $("#userInput").hide();
+    $("#userLookupError").hide();
+    $("#userOutput").show();
     console.log(response);
   }).fail(function(error){
+    $("#userLookupError").show();
     console.log(error.responseJSON.message);
   });
 };
