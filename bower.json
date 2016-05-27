@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Daniel Wulff <danielwulff.ee@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/danwulff/Javascript_Node-Template",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.13.0"
+  }
+}
