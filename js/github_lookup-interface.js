@@ -4,8 +4,9 @@ var GithubUser = require('./../js/github_lookup.js').GithubUser;
 $( document ).ready(function() {
 
   $("#userSubmit").click(function() {
-    var currentUser = new GithubUser($("#userName").val())
+    var currentUser = new GithubUser($("#userName").val());
     currentUser.getUser();
+    currentUser.getRepos();
   });
 
   $("#userRetry").click(function() {
