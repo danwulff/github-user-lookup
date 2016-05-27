@@ -7,21 +7,27 @@
   <script type="text/javascript" src="build/js/app.js"></script>
 </head>
 <body>
-  <h1>Github User Lookup!</h1>
-  <div id="userInput">
-    <input id = "userName" type="text" name="name">
-    <button id="userSubmit" type="button" name="button">Lookup User</button>
-  </div>
-  <div id="userLookupError" hidden>
-    <h4>Error Finding Username, try again</h4>
-  </div>
-  <div id="userOutput" hidden>
-    <button id="userRetry" type="button" name="button">Lookup Different User</button>
-    <h3>User name here</h3>
-    <h4>Github URL here</h4><br>
+  <div class="container">
 
-    <h4>Repo1 name</h4>
-    <p>Repo1 description</p>
+    <h1>Github User Lookup!</h1>
+    <div id="userInput">
+      <input id = "userName" type="text" name="name">
+      <button id="userSubmit" type="button" name="button">Lookup User</button>
+    </div>
+    <div id="userLookupError" hidden>
+      <h4>Error Finding Username, try again</h4>
+    </div>
+    <div id="userOutput" hidden>
+      <button id="userRetry" type="button" name="button">Lookup Different User</button>
+      <h3 id="userName">User name here</h3>
+      <h4 id="githubURL">Github URL here</h4><br>
+
+      <div id="userRepos">
+        <h4>Repo1 name</h4>
+        <p>Repo1 description</p>
+      </div>
+
+    </div>
 
   </div>
 </body>

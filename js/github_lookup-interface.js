@@ -1,11 +1,11 @@
-var getRepos = require('./../js/github_lookup.js').getRepos;
-var getUser = require('./../js/github_lookup.js').getUser;
+var GithubUser = require('./../js/github_lookup.js').GithubUser;
 
 //user interface logic
 $( document ).ready(function() {
 
   $("#userSubmit").click(function() {
-    var userOutput = getUser($("#userName").val());
+    var currentUser = new GithubUser($("#userName").val())
+    currentUser.getUser();
   });
 
   $("#userRetry").click(function() {
