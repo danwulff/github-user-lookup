@@ -12,8 +12,9 @@ _This is an example of javascript API use, specifically js development using mod
 
 * _Be sure to place all provided files/folders as seen in the repository into a single directory_
 * _in a bash terminal change directory to the folder containing project files and run:_
-* _$ npm install_
-* _$ bower install_
+* _$ npm install && bower install_
+* _You will need to add a github api key to the "env" file: https://github.com/blog/1509-personal-api-tokens_
+* _Rename "env" to ".env"_
 * _For webpage viewing run:_
 * _$ gulp build --production_
 * _and open index.html in a browser_
